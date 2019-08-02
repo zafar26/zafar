@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .wrapper {
-		background: lightgoldenrodyellow;
+		background:lightgrey;
 }
 
 .img-circle {
@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 /*** thin bar ***/
 
 .thin-bar {
-		border-bottom: 5px solid #F33F12;
+		border-bottom: 5px solid gray
 }
 
 
@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
 #about {
 		margin-top: 10em;
 		border: 1px solid #eee;
-		background-color: white;
+		background-color: whitesmoke;
 		padding-bottom: 1em;
 }
 
@@ -176,9 +176,12 @@ h1, h2, h3, h4, h5, h6 {
 /*** work ***/
 #work {
 	padding: 6em 4em 3em;
-	background-color: #fff;
+	background-color: lightgoldenrodyellow;
 }
-
+#work img {
+	border:2px;
+	border-color:black;
+}
 #work h2 {
 	color: #FF6945;
 	margin-bottom: .7em;
@@ -192,7 +195,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #work .work-row {
-	margin-bottom: 5.5em;
+	margin-bottom: 12.5em;
 }
 
 .details h3 {
@@ -234,29 +237,9 @@ h1, h2, h3, h4, h5, h6 {
 		color: #fff;
 }
 
-/*** teaching ***/
-#teaching {
-	padding: 6em 4em 3em;
-}
-
-#teaching h2 {
-	color: #595959;
-}
-
-#teaching .tag-line {
-	color: #848282;
-	font-size: 1.4em;
-}
-
-#teaching .teaching-domains {
-	height: 500px;
-	width: auto;
-	margin-top: -4em;
-}
-
 /*** Footer Call-to-action ***/
 #footer-cta {
-	background-color: rgba(255, 103, 68, 0.91);
+	background-color: rgba(78, 103, 243, 0.91);
 	padding: 6em 4em 5.6em;
 }
 
@@ -293,16 +276,6 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 5em 4em 2em;
 }
 
-#footer #logo {
-	background-color: rgba(255, 103, 68, 0.91);
-	border-radius: 50%;
-	color: #fff;
-	padding: .4em;
-	font-family: "Maven pro", sans-serif;
-	font-size: 1.6em;
-	font-weight: 500;
-	display: inline;
-}
 
 #footer #copyright {
 	margin-top: 1.6em;
