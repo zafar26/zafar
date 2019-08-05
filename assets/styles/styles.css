@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .wrapper {
-		background:lightgrey;
+		background: #525251;
 }
 
 .img-circle {
@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 /*** thin bar ***/
 
 .thin-bar {
-		border-bottom: 5px solid gray
+		border-bottom: 5px solid black;
 }
 
 
@@ -70,12 +70,12 @@ h1, h2, h3, h4, h5, h6 {
 
 #about {
 		margin-top: 10em;
-		border: 1px solid #eee;
-		background-color: whitesmoke;
+		background-color: #525251;
 		padding-bottom: 1em;
 }
 
 #about img {
+		
 		max-width: 15em;
 		position: relative;
 		bottom: 7.5em;
@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #about h2 {
-		color: #646464;
+		color: #eaefc4;
 		font-size: 3.8em;
 		padding-bottom: 1em;
 }
@@ -108,20 +108,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .cta .cta-button {
-		color: #cc4b37;
+		color: lightseagreen;
 		text-transform: uppercase;
-		border: 2px solid rgba(255, 103, 68, 0.91);
+		border: 2px solid lightseagreen;
 		border-radius: 50px;
 		background: white;
 }
 
 .cta .cta-button:hover, .cta .cta-button:focus {
 		box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);
-		background-color: rgba(255, 103, 68, 0.91);
+		background-color: lightseagreen;
 		color: white;
 }
 
 #about i {
+	color:lightseagreen;
 	margin-top: 2em;
 }
 
@@ -138,11 +139,11 @@ h1, h2, h3, h4, h5, h6 {
 /*** Experience ***/
 #experience {
 	background-color: #4c6d86;
-	padding: 6em 4em 5.6em;
+	padding: 6em 4em 10em;
 }
 
 #experience h2 {
-	color: #fff;
+	color: #f6edcf;
 	margin-bottom: .7em;
 }
 
@@ -152,7 +153,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #experience i {
-	color: rgb(255, 138, 89);
+	color: darkseagreen;
 	font-size: 4em;
 }
 
@@ -176,14 +177,11 @@ h1, h2, h3, h4, h5, h6 {
 /*** work ***/
 #work {
 	padding: 6em 4em 3em;
-	background-color: lightgoldenrodyellow;
+	background-color: #525252;
 }
-#work img {
-	border:2px;
-	border-color:black;
-}
+
 #work h2 {
-	color: #FF6945;
+	color: #f6edcf;
 	margin-bottom: .7em;
 }
 
@@ -195,11 +193,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #work .work-row {
-	margin-bottom: 12.5em;
+	margin-bottom: 13em;
 }
-
 .details h3 {
-	color: #738182;
+	color: #d2c8c8;
 	text-transform: uppercase;
 }
 
@@ -209,16 +206,16 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 2em 0 -0.1em;
 	font-family: "Maven pro", sans-serif;
 	font-weight: 500;
-	color: #ff7654;
+	color: #d2c8c8;
 }
 
 .details i {
-	color: #ff7654;
+	color: #d2c8c8;
 	margin-right: 1em;
 }
 
 .details p {
-	color: #738182;
+	color: #eeeeee;
 	font-family: "Maven pro", sans-serif;
 	font-weight: 500;
 	font-size: 1.2em;
@@ -226,25 +223,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .details a, .details a:link, .details a:active{
-		color: rgba(255, 103, 68, 0.91);
-		border: 2px solid rgba(255, 103, 68, 0.91) !important;
-		background-color: #fff;
+		color: #60a9a6;
+		border: 2px solid #60a9a6!important;
+		background-color: #f6edcf;
 }
 
 .details a:hover, .details a:focus {
 		/*box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);*/
-		background-color: rgba(255, 103, 68, 0.91) !important;
+		background-color: #60a9a6 !important;
 		color: #fff;
 }
 
 /*** Footer Call-to-action ***/
 #footer-cta {
-	background-color: rgba(78, 103, 243, 0.91);
-	padding: 6em 4em 5.6em;
+	background-color: #4c6d86;
+	padding: 6em 4em 10em;
 }
 
 #footer-cta h2 {
-	color: white;
+	color: #f6edcf;
 }
 
 #footer-cta p {
@@ -266,14 +263,14 @@ h1, h2, h3, h4, h5, h6 {
 
 #footer-cta a:hover {
 	background: #fff;
-	color: rgba(255, 103, 68, 0.91);
+	color: lightseagreen;
 	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);
 }
 
 /*** footer starts ***/
 
 #footer {
-	padding: 5em 4em 2em;
+	padding: 1em 4em 2em;
 }
 
 

@@ -1,30 +1,5 @@
 const Portfolio = function() {
-	function makeWords() {
-		var words = [
-			{
-				text: "css3",
-				weight: 8
-			}, {
-				text: "javascript",
-				weight: 14
-			}, {
-				text: "jquery",
-				weight: 3
-			}, {
-				text: "python",
-				weight: 10
-			},  {
-				text: "newText",
-				weight: 7
-			}
-		];
-		return words;
-	}
-
-	function makeWordCloud(words) {
-		$('.teaching-domains').jQCloud(words, {delay: 120});
-	}
-
+	
 	function displayWordCloud() {
 		var count = 1;
 		$(window).on('scroll', function() {
@@ -38,9 +13,6 @@ const Portfolio = function() {
 		});
 	}
 
-	function designForm() {
-		$("#my-modal form").addClass("my-form");
-	}
 
 	function typeAnimation() {
 		Typed.new("#writing-text", {
@@ -50,10 +22,10 @@ const Portfolio = function() {
 			// Optionally use an HTML element to grab strings from (must wrap each string in a <p>)
 			stringsElement: null,
 			// typing speed
-			typeSpeed: 1,
+			typeSpeed: 2,
 			contentType: 'text',
 			callback: function() {
-				$("#writing-text").css({"color": "#fff", "background-color": "#C8412B"});
+				$("#writing-text").css({"color": "#fff", });
 			},
 			preStringTyped: function() {},
 			onStringTyped: function() {}
