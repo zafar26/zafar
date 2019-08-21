@@ -153,7 +153,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #experience i {
+<<<<<<< HEAD
 	color: #53cdd8;
+=======
+	color:  #53cdd8;
+>>>>>>> b981705d02825e19b26a561b70a1ae852cd7e21c
 	font-size: 4em;
 }
 
