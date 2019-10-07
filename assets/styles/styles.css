@@ -185,7 +185,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #work h2 {
-	color: #f6edcf;
+	color: #17223b;
 	margin-bottom: .7em;
 }
 
@@ -207,7 +207,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin:5px auto;
 }
 .details h3 {
-	color: #d2c8c8;
+	color: #17223b;
 	text-transform: uppercase;
 }
 
@@ -217,7 +217,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 2em 0 -0.1em;
 	font-family: "Maven pro", sans-serif;
 	font-weight: 500;
-	color: #d2c8c8;
+	color: #17223b;
 }
 
 .details i {
