@@ -138,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*** Experience ***/
 #experience {
-	background-color: #042f4b;
+	background-color: #af460f;
 	padding: 6em 4em 10em;
 }
 
@@ -153,11 +153,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #experience i {
-<<<<<<< HEAD
 	color: #53cdd8;
-=======
-	color:  #53cdd8;
->>>>>>> b981705d02825e19b26a561b70a1ae852cd7e21c
 	font-size: 4em;
 }
 
@@ -181,11 +177,11 @@ h1, h2, h3, h4, h5, h6 {
 /*** work ***/
 #work {
 	padding: 6em 4em 3em;
-	background-color: #60a9a6;
+	background-color: #272343;
 }
 
 #work h2 {
-	color: #17223b;
+	color: #eaebd8;
 	margin-bottom: .7em;
 }
 
@@ -207,7 +203,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin:5px auto;
 }
 .details h3 {
-	color: #17223b;
+	color: #eaebd8;
 	text-transform: uppercase;
 }
 
@@ -217,7 +213,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 2em 0 -0.1em;
 	font-family: "Maven pro", sans-serif;
 	font-weight: 500;
-	color: #17223b;
+	color: #767779;
 }
 
 .details i {
@@ -247,7 +243,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*** Footer Call-to-action ***/
 #footer-cta {
-	background-color: #4c6d86;
+	background-color: #111d5e;
 	padding: 6em 4em 10em;
 }
 
